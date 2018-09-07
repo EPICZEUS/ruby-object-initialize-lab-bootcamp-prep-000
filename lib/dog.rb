@@ -1,3 +1,6 @@
 class Dog
   def initialize(name, breed = "Mutt")
-    @name = $FILENAME
+    @name = name
+    @breed = breed
+  end
+end
